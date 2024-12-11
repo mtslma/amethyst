@@ -140,7 +140,6 @@ header h1 a:hover{
 }
 
 .destaques .item .icone-item{
-    margin-top: 30px;
     font-size: 3rem;
     color: var(--color-5);
 }
@@ -157,9 +156,62 @@ header h1 a:hover{
 .destaques .item p{
     margin-top: 10px;
     font-size: 1.4rem;
-    font-weight: 400;
+    font-weight: lighter;
 }
 
+/* Cadastro */
+.cadastro{
+    margin-top: 1%;
+    min-height: 20vh;
+    background-color: var(--color-1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 2vw;
+    text-align: center;
+}
+
+.cadastro h2{
+    font-size: 3rem;
+    color: var(--color-5);
+}
+
+.cadastro h3{
+    margin-top: 10px;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    color: var(--color-5);
+}
+
+.cadastro .formCadastro{
+    margin-top: 20px;
+}
+
+.formCadastro input{
+    height: 34px;
+    width: 340px;
+    margin-right: 15px;
+    padding-left: 15px;
+    font-size: 1.2rem;
+    border: 2px solid var(--color-5);
+    border-radius: 4px;
+}
+
+.formCadastro button{
+    height: 38px;
+    width: 100px;
+    font-size: 1.2rem;
+    color: var(--color-1);
+    background-color: var(--color-5);
+    border: 2px solid var(--color-5);
+    border-radius: 4px;
+}
+
+.formCadastro button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
 
 /* Media Queries */
 @media (max-width: 768px){
