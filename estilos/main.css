@@ -120,9 +120,61 @@ header h1 a:hover{
 
 .banner .btn:hover{
     background-color: var(--color-2);
-    border-color: #7868C4;
+    border-color: var(--color-4);
     color: var(--color-4);
     cursor: pointer;
+    transition: 0.3s;
 }
 
-/* Informações */
+/* Destaques */
+.destaques{
+    margin-top: 1%;
+    min-height: 30vh;
+    background-color: var(--color-4);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px 6vw;
+}
+
+.destaques .item .icone-item{
+    margin-top: 30px;
+    font-size: 3rem;
+    color: var(--color-5);
+}
+
+.destaques .item{
+    max-width: 24vw;
+}
+
+.destaques .item h3{
+    font-size: 2rem;
+    color: var(--color-1);
+}
+
+.destaques .item p{
+    margin-top: 10px;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+
+/* Media Queries */
+@media (max-width: 768px){
+
+    header{
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .destaques{
+        flex-direction: column;
+    }
+
+    .destaques .item{
+        flex-direction: column;
+        max-width: 80vw;
+    }
+}
