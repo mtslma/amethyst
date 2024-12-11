@@ -22,6 +22,10 @@ ul, ol{
     list-style-type: none;
 }
 
+.container{
+    min-width: 400px;
+}
+
 /* Configurações de fonte */
 .fonte-primaria{
     font-family: 'Baumans', sans-serif; /* Para BIZ UDPMincho */;
