@@ -9,5 +9,5 @@ if (window.location.href.includes("colecoes.html")){
         if (counter > 3){
             counter = 1;
         }
-    }, 2000)
+    }, 3000)
 }
