@@ -6,7 +6,7 @@ if (window.location.href.includes("colecoes.html")){
     setInterval(function(){
         document.getElementById('radio' + counter).checked = true;
         counter++;
-        if (counter > 3){
+        if (counter > 2){
             counter = 1;
         }
     }, 3000)
