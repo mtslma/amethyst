@@ -428,7 +428,7 @@ footer p{
 
 .produto:hover{
     transition: 0.3s;
-    margin: 0 2% 0 2%;
+    margin: 0 3% 0 3%;
     cursor: pointer;
     border-width: 3px;
     border-style: groove;
