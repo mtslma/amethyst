@@ -55,7 +55,7 @@ header h1{
 
 header h1 a{
     text-decoration: none;
-
+    display: flex;
     font-size: 2.6rem;
     font-family: "Anton", sans-serif;
     background: linear-gradient(to right, var(--color-5), var(--color-3), var(--color-5));
@@ -67,12 +67,15 @@ header h1 a:hover{
     text-decoration: underline;
 }
 
+/* Menu de navegação dentro do header */
 .nav-menu ul{
     display: flex;
     gap: 20px;
 }
 
 .nav-menu a{
+    display: flex;
+    gap: 5px;
     font-size: 1rem;
     text-decoration: none;
     text-align: center;
@@ -367,6 +370,8 @@ footer p{
 #radio4:checked ~ .navegacao-auto .auto-btn4{
     background-color: var(--color-5);
 }
+/* Fim da configuração dos slides */
+
 
 /* Configurando as fileiras e produtos */
 
@@ -410,8 +415,8 @@ footer p{
 .produto img{
     width: 160px;
     height: 160px;
-    max-width: 160px;
-    max-height: 160px;
+    max-width: 150%;
+    max-height: 150%;
 }
 
 .produtos .nome-produto{
@@ -427,17 +432,22 @@ footer p{
 }
 
 .produto:hover{
-    transition: 0.3s;
-    margin: 0 3% 0 3%;
+    transition: 0.3s ease-in-out;
     cursor: pointer;
     border-width: 3px;
     border-style: groove;
+    height: 110%;
+
 }
 
+.produto:hover img{
+    transition: 0.3s ease-in-out;
+    width: 105%;
+    height: 110%;
 
+    z-index: -1;
+}
 
-
-/* Fim da configuração dos slides */
 
 /* Media Queries */
 @media (max-width: 768px){
