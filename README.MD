@@ -7,6 +7,7 @@ Uma plataforma (fictícia) de vendas de joias.
 ## 📋 Índice
 - [Sobre o Projeto](#sobre-o-projeto)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Demonstração do Projeto](#demonstracao-do-projeto)
 
 ---
 
@@ -23,3 +24,7 @@ Esse projeto é destinado para revisar conceitos importantes do desenvolvimento 
 - **JavaScript**: Funcionalidades dinâmicas e interatividade.
 
 ---
+
+## ❤️ Demonstração do Projeto 
+
+- Para visualizar o projeto em funcionamento, acesse: [mtslms.github.io/amethyst](https://mtslma.github.io/amethyst/)
